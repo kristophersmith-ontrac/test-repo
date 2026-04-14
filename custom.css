@@ -14,6 +14,6 @@ button[button-name="close"]:hover {
   padding-bottom: 40vh;
 }
 
-.five9-ln-cancel-btn-caption:after {
-    content: 'Exit' !important;
+html body a.five9-ln-cancel-btn-caption:after {
+    content: 'Exit';
 }
