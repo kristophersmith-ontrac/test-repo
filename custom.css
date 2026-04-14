@@ -1,3 +1,19 @@
-.btn-outline:hover {
+button#minus:hover,
+button#headerMenuDropdown:hover,
+button[button-name="minus"]:hover,
+button[button-name="close"]:hover {
   background-color: #aa1e26 !important;
+}
+.card-body p {
+  font-size: 0.7rem;
+}
+.card-body {
+  padding: 0.5rem;
+}
+.card {
+  padding-bottom: 40vh;
+}
+
+.five9-ln-cancel-btn-caption:after {
+    content: 'Exit' !important;
 }
