@@ -22,6 +22,10 @@
     content: '' !important;
   }
 
+  .five9-ln-last-page-thanks {
+    display: none !important;
+  }
+
   .ui-title {
     content: 'Thank you for contacting OnTrac!' !important;
   }
