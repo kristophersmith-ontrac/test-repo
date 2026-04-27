@@ -18,8 +18,8 @@
       content: 'Exit' !important;
   }
 
-  .five9-ln-last-page-thanks {
-    display: none !important;
+  .five9-ln-last-page-thanks:after {
+    content: '' !important;
   }
 
   .ui-title {
