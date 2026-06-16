@@ -29,3 +29,7 @@
   .ui-title {
     content: 'Thank you for contacting OnTrac!' !important;
   }
+
+  p.text-white {
+    color: #104C2C !important;
+  }
