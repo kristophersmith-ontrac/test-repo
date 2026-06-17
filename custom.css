@@ -2,7 +2,7 @@ button#minus:hover,
 button#headerMenuDropdown:hover,
 button[button-name="minus"]:hover,
 button[button-name="close"]:hover {
-  background-color: #aa1e26 !important;
+  background-color: #1BBB76 !important;
 }
 .card-body p {
   font-size: 0.7rem;
