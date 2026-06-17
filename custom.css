@@ -51,3 +51,8 @@ button[type="submit"] {
 .pn-msg .pn-msg__content .fn-helper__text {
   color: #ffffff !important;
 }
+
+/* Connection status text like "Waiting to connect, please wait..." */
+.pn-msg__content.text-label-muted .flex.flex-col.items-center > span.text-size2 {
+  color: #ffffff !important;
+}
