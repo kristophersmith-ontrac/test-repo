@@ -1,43 +1,32 @@
-  button#minus:hover,
-  button#headerMenuDropdown:hover,
-  button[button-name="minus"]:hover,
-  button[button-name="close"]:hover {
-    background-color: #aa1e26 !important;
-  }
-  .card-body p {
-    font-size: 0.7rem;
-  }
-  .card-body {
-    padding: 0.5rem;
-  }
-  .card {
-    padding-bottom: 40vh;
-  }
+button#minus:hover,
+button#headerMenuDropdown:hover,
+button[button-name="minus"]:hover,
+button[button-name="close"]:hover {
+  background-color: #aa1e26 !important;
+}
+.card-body p {
+  font-size: 0.7rem;
+}
+.card-body {
+  padding: 0.5rem;
+}
+.card {
+  padding-bottom: 40vh;
+}
 
-  html body a.five9-ln-cancel-btn-caption:after {
-      content: 'Exit' !important;
-  }
+p.text-white {
+  color: #104C2C !important;
+}
 
-  .five9-ln-last-page-thanks:after {
-    content: '' !important;
-  }
+h4.text-white {
+  color: #104C2C !important;
+}
 
-  .five9-ln-last-page-thanks {
-    display: none !important;
-  }
+.text-label-default {
+  color: #104C2C !important;
+}
 
-  .ui-title {
-    content: 'Thank you for contacting OnTrac!' !important;
-  }
-
-  p.text-white {
-    color: #104C2C !important;
-  }
-
-  h4.text-white {
-    color: #104C2C !important;
-  }
-
-  .text-label-default {
-    color: #104C2C !important;
-  }
+button[type="submit"] {
+  background-color: #22ed95 !important;
+  color: #000000 !important;
+}
