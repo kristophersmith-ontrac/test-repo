@@ -1,0 +1,58 @@
+button#minus:hover,
+button#headerMenuDropdown:hover,
+button[button-name="minus"]:hover,
+button[button-name="close"]:hover {
+  background-color: #1BBB76 !important;
+}
+.card-body p {
+  font-size: 0.7rem;
+}
+.card-body {
+  padding: 0.5rem;
+}
+.card {
+  padding-bottom: 40vh;
+}
+
+p.text-white {
+  color: #104C2C !important;
+}
+
+h4.text-white {
+  color: #104C2C !important;
+}
+
+.text-label-default {
+  color: #104C2C !important;
+}
+
+button[type="submit"] {
+  background-color: #22ed95 !important;
+  color: #000000 !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+/* System notices like "Thank you for contacting us." and "OnTrac has joined the chat" */
+.pn-msg.pn-msg--own .pn-msg__content.text-label-muted,
+.pn-msg.pn-msg--own .pn-msg__content.text-label-muted p {
+  color: #ffffff !important;
+}
+
+/* Agent name like "OnTrac" under the avatar */
+.pn-msg .pn-msg__author,
+.pn-msg .pn-msg__author span {
+  color: #ffffff !important;
+}
+
+/* Message timestamp like "4:13 PM" */
+.pn-msg .pn-msg__content .fn-helper__text {
+  color: #ffffff !important;
+}
+
+/* Connection status text like "Waiting to connect, please wait..." */
+.pn-msg__content.text-label-muted .flex.flex-col.items-center > span.text-size2 {
+  color: #ffffff !important;
+}
