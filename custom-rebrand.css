@@ -103,9 +103,11 @@ div[data-testid="openView"] footer {
   background-color: #000000 !important;
 }
 
-/* Keep typing indicator readable on dark background. */
-div[data-testid="openView"] #typing-parent,
-div[data-testid="openView"] #typing-parent .pn-typing-indicator {
+/* Keep typing strip and indicator readable on dark background. */
+div[data-testid="openView"] footer + div {
   background-color: #000000 !important;
+}
+
+div[data-testid="openView"] #typing-parent {
   color: #ffffff !important;
 }
