@@ -94,3 +94,15 @@ button[type="submit"] {
 .pn-msg__content.text-label-muted .flex.flex-col.items-center > span.text-size2 {
   color: #ffffff !important;
 }
+
+/* Darken chat surfaces only; keep header and bubbles unchanged. */
+div[data-testid="openView"] main,
+div[data-testid="openView"] .pn-msg-list,
+div[data-testid="openView"] .pn-msg-list-scroller,
+div[data-testid="openView"] footer,
+div[data-testid="openView"] footer .pn-msg-input,
+div[data-testid="openView"] footer .pn-msg-input__wrapper,
+div[data-testid="openView"] footer .pn-msg-input__textarea,
+div[data-testid="openView"] #typing-parent {
+  background-color: #000000 !important;
+}
