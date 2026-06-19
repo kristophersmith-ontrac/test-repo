@@ -56,8 +56,8 @@ button[type="submit"] {
 /* Match btn-outline hover/active treatment to the custom orange send button. */
 .pn-msg-input__send #send-div.btn-outline:hover,
 .pn-msg-input__send #send-div.btn-outline.btn-active {
-  border-color: #c53f27 !important;
-  background-color: #c53f27 !important;
+  border-color: #FA5A3A !important;
+  background-color: #FA5A3A !important;
   color: #ffffff !important;
 }
 
