@@ -6,6 +6,7 @@ button[button-name="close"]:hover {
 }
 
 button#minus,
+button#headerMenuDropdown,
 button[button-name="minus"],
 button[button-name="close"] {
   color: #000000 !important;
