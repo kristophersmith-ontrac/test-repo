@@ -108,6 +108,6 @@ div[data-testid="openView"] footer + div {
   background-color: #000000 !important;
 }
 
-div[data-testid="openView"] #typing-parent {
+div[data-testid="openView"] #typing-parent .pn-typing-indicator {
   color: #ffffff !important;
 }
