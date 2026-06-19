@@ -62,6 +62,7 @@ button[type="submit"] {
 }
 
 .avatar.placeholder > div.bg-neutral-focus.text-neutral-content.rounded-full.w-8.transparent-border-forced-colors {
+  background-color: #22ed95 !important;
   background-image: url("https://kristophersmith-ontrac.github.io/test-repo/favicon.svg") !important;
   background-size: cover !important;
   background-position: center !important;
