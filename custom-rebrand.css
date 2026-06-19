@@ -4,6 +4,13 @@ button[button-name="minus"]:hover,
 button[button-name="close"]:hover {
   background-color: #1BBB76 !important;
 }
+
+button#minus,
+button[button-name="minus"],
+button[button-name="close"] {
+  color: #000000 !important;
+}
+
 .card-body p {
   font-size: 0.7rem;
 }
