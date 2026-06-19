@@ -12,6 +12,12 @@ button[button-name="close"] {
   color: #000000 !important;
 }
 
+/* Header center title (e.g., "OnTrac") */
+header[data-testid="header"] > div.text-white.grow.justify-center,
+header[data-testid="header"] > div.text-white.grow.justify-center span {
+  color: #000000 !important;
+}
+
 .card-body p {
   font-size: 0.7rem;
 }
