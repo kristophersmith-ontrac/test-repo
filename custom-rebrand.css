@@ -98,6 +98,7 @@ button[type="submit"] {
 /* Darken chat surfaces only; keep header and bubbles unchanged. */
 div[data-testid="openView"] main,
 div[data-testid="openView"] .pn-msg-list,
-div[data-testid="openView"] .pn-msg-list-scroller {
+div[data-testid="openView"] .pn-msg-list-scroller,
+div[data-testid="openView"] footer {
   background-color: #000000 !important;
 }
