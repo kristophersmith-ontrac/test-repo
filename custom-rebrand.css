@@ -60,8 +60,12 @@ button[type="submit"] {
   border: none !important;
 }
 
-button.iZqrOF {
-  border-color: #22ed95 !important;
+button.iZqrOF.border-none {
+  border: 1.11111px solid #22ed95 !important;
+}
+
+button.iZqrOF.border-none:not(:last-child) {
+  margin-bottom: 0.35rem !important;
 }
 
 .pn-msg-input__send #send-div svg rect {
