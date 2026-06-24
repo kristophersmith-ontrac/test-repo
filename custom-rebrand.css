@@ -51,8 +51,12 @@ p[role="status"].text-label-default {
   color: #ffffff !important;
 }
 
-div[data-testid="notification"].alert.justify-center {
+div[data-testid="notification"] {
   background-color: #104C2C !important;
+  color: #FFFFFF !important;
+}
+
+div[data-testid="notification"] * {
   color: #FFFFFF !important;
 }
 
