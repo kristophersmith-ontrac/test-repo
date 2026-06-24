@@ -1,3 +1,9 @@
+/* Apply Aptos across this chat experience only. */
+div[data-testid="openView"],
+div[data-testid="openView"] * {
+  font-family: Aptos, "Segoe UI", Arial, sans-serif !important;
+}
+
 button#minus:hover,
 button#headerMenuDropdown:hover,
 button[button-name="minus"]:hover,
