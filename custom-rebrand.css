@@ -51,6 +51,11 @@ p[role="status"].text-label-default {
   color: #ffffff !important;
 }
 
+div[data-testid="notification"] {
+  background-color: #104C2C !important;
+  color: #FFFFFF !important;
+}
+
 button[type="submit"] {
   background-color: #22ed95 !important;
   color: #231F20 !important;
