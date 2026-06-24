@@ -65,7 +65,7 @@ button.iZqrOF.border-none {
 }
 
 button.iZqrOF.border-none:not(:last-child) {
-  margin-bottom: 0.35rem !important;
+  margin-bottom: 12px !important;
 }
 
 .pn-msg-input__send #send-div svg rect {
