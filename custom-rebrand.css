@@ -65,11 +65,12 @@ button[type="submit"] {
   border: none !important;
 }
 
-button.iZqrOF.border-none {
+button[id="Start New Chat"],
+button[id="Close Window"] {
   border: 1.11111px solid #22ed95 !important;
 }
 
-button.iZqrOF.border-none:not(:last-child) {
+button[id="Start New Chat"] {
   margin-bottom: 12px !important;
 }
 
