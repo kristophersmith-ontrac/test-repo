@@ -46,6 +46,11 @@ h4.text-white {
   color: #104C2C !important;
 }
 
+/* Ended-session status line: "Your chat session has ended." */
+p[role="status"].text-label-default {
+  color: #ffffff !important;
+}
+
 button[type="submit"] {
   background-color: #22ed95 !important;
   color: #231F20 !important;
@@ -55,8 +60,17 @@ button[type="submit"] {
   border: none !important;
 }
 
+button.iZqrOF {
+  border-color: #22ed95 !important;
+}
+
 .pn-msg-input__send #send-div svg rect {
   fill: #F94E32 !important;
+}
+
+/* Comment-dots SVG uses currentColor; set icon color directly. */
+svg[data-icon="comment-dots"] {
+  color: #F94E32 !important;
 }
 
 /* Match btn-outline hover/active treatment to the custom orange send button. */
