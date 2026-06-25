@@ -98,8 +98,8 @@ svg[data-icon="comment-dots"] {
 .avatar.placeholder > div.bg-neutral-focus.text-neutral-content.rounded-full.w-8.transparent-border-forced-colors {
   background-color: #22ed95 !important;
   background-image: url("https://kristophersmith-ontrac.github.io/test-repo/ot_logo_favicon.svg") !important;
-  background-size: 80% !important;
-  background-position: 50% 80% !important;
+  background-size: 60% !important;
+  background-position: 50% 55% !important;
   background-repeat: no-repeat !important;
   color: transparent !important;
   font-size: 0 !important;
